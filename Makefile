@@ -4,6 +4,8 @@ SUBLEVEL = 40
 EXTRAVERSION =
 NAME = TOSSUG Baby Fish
 
+TOOLCHAIN_DIR = 
+
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
 # More info can be located in ./README
@@ -193,7 +195,7 @@ SUBARCH := $(shell uname -m | sed -e s/i.86/x86/ -e s/x86_64/x86/ \
 # Default value for CROSS_COMPILE is not to prefix executables
 # Note: Some architectures assign CROSS_COMPILE in their arch/*/Makefile
 ARCH            ?=arm
-CROSS_COMPILE   =  ../PLATFORM/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin/arm-eabi-
+CROSS_COMPILE   = $(TOOLCHAIN_DIR)
 
 
 # Architecture as present in compile.h
