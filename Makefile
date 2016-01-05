@@ -4,7 +4,7 @@ SUBLEVEL = 40
 EXTRAVERSION =
 NAME = TOSSUG Baby Fish
 
-TOOLCHAIN_DIR = 
+TOOLCHAIN_DIR = /home/kerneldev/android/toolchains/arm-eabi-4.8/bin/arm-eabi-
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
