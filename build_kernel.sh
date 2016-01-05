@@ -10,7 +10,7 @@ BUILD_CROSS_COMPILE=$TOOLCHAIN_DIR/$TOOLCHAIN
 #vars
 TOOLCHAIN_DIR=/home/$BUILD_USER/android/toolchains
 TOOLCHAIN=/arm-eabi-4.8/bin/arm-eabi-
-KERNEL_DEFCONFIG=
+KERNEL_DEFCONFIG=markus_defconfig
 KERNEL_VER="test_kernel"
 
 
